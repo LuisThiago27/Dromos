@@ -34,4 +34,327 @@
         font-size: 30px;
     }
 
+    /* Vantagens */
+    section.vantagens {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-title-vantagens h3 {
+        font-size: 32px;
+    }
+
+    .container-text-vantagens h6 {
+        font-size: 16px;
+    }
+
+    .icon-list-icon i {
+        font-size: 30px;
+    }
+    
+    .icon-list-text {
+        font-size: 16px;
+    }
+
+    /* Plataformas dos anuncios */
+    section.plataformas {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-title-plataformas h4 {
+        font-size: 30px;
+    }
+    
+    .container-text-plataformas h5 {
+        font-size: 20px;
+    }
+
+    /* Case de sucesso */
+    section.case-de-sucesso {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-title-case h3 {
+        font-size: 32px;
+    }
+
+    /* Impussionar resultados */
+    section.impulsionar {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-title-impulsionar h3 {
+        font-size: 30px;
+    }
+
+    /* Depoimentos */
+    section.depoimentos {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-text-depoimentos h2 {
+        font-size: 30px;
+    }
+
+    .carousel-item {
+        width: 100%;
+    }
+
+    /* Perguntas frequentes */
+    .container-title-perguntas-frequentes h2 {
+        font-size: 30px;
+    }
+    
+
+}
+
+/* Tablet */
+@media (max-width: 425px) {
+    /* Header */
+    .row-logo .col-4 {
+        padding: 0;
+    }
+
+    .row.row-logo {
+        padding-bottom: 100px;
+    }
+
+    .logo-container {
+        padding: 0;
+    }
+
+    .logo-container img {
+        width: 120px;
+    }
+
+    .container-img-rocket img {
+        width: 160px;
+    }
+
+    .container-btn-proposta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-proposta {
+        font-size: 14px;
+        padding: 15px 12px 15px 12px;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .container-img-rocket {
+        top: 80%;
+    }
+
+    .container-title-header h4 {
+        font-size: 22px;
+        padding: 0;
+    }
+
+    .container-subtitle-header h5  {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    /* Cards */
+    .card {
+        min-height: 340px;
+    }
+
+    .text-title-cards h3 {
+        font-size: 30px;
+    }
+
+    .title-card h5 {
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .subtitle-card h6 {
+        font-size: 16px;
+    }
+
+    /* Informações da empresa */
+    .container-text-empresa h4 {
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .container-col-text {
+        font-size: 16px;
+        line-height: 1.4;
+        padding-right: 0;
+    }
+
+    .no-cell {
+        display: none;
+    }
+
+    .bolinha1, .bolinha2, .bolinha3 {
+        width: 22px;
+        height: 22px;
+        left: 50%;
+        right: 0;
+    }
+
+    .bolinha1{
+        top: 2%;
+    }
+
+    .bolinha2{
+        top: 19%;
+    }
+
+    .bolinha3{
+        top: 56%;
+    }
+
+    /* Vantagens */
+    section.vantagens {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-title-vantagens h3 {
+        font-size: 32px;
+    }
+
+    .container-text-vantagens h6 {
+        font-size: 16px;
+    }
+
+    .icon-list-icon i {
+        font-size: 30px;
+    }
+    
+    .icon-list-text {
+        font-size: 16px;
+    }
+
+    .container-btn-vantagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-btn-vantagens a {
+        font-size: 18px;
+        line-height: 1.2;
+        padding: 15px 20px 15px 20px;
+    }
+
+    /* Plataformas dos anuncios */
+    section.plataformas {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-title-plataformas h4 {
+        font-size: 30px;
+    }
+    
+    .container-text-plataformas h5 {
+        font-size: 20px;
+    }
+
+    /* Case de sucesso */
+    section.case-de-sucesso {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-title-case h3 {
+        font-size: 32px;
+    }
+
+    /* Impussionar resultados */
+    section.impulsionar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-title-impulsionar h3 {
+        font-size: 30px;
+    }
+
+    /* Depoimentos */
+    section.depoimentos {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-text-depoimentos h2 {
+        font-size: 30px;
+    }
+
+    .carousel-item {
+        width: 100%;
+    }
+
+    /* Perguntas frequentes */
+    .container-title-perguntas-frequentes h2 {
+        font-size: 30px;
+    }
+
+    /* Plataformas */
+    .container-title-plataformas h4 {
+        font-size: 26px;
+    }
+
+    .container-text-plataformas h5 {
+        font-size: 18px;
+    }
+
+    .icon-plataformas {
+        padding: 0 20px;
+    }
+
+    /* Case de sucesso */
+    .container-title-case h3 {
+        font-size: 30px;
+    }
+
+    .container-btn-case {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-btn-case a {
+        font-size: 18px;
+        line-height: 1.2;
+        padding: 15px 20px 15px 20px;
+    }
+
+    /* Impussionar resultados */
+    .container-title-impulsionar h3 {
+        font-size: 24px;
+    }
+
+    .container-title-impulsionar img {
+        width: 24px;
+        top: 5px;
+        right: 20%;
+        margin: 0!important;
+    }
+
+    /* Depoimentos */
+    .container-text-depoimentos h2 {
+        font-size: 26px;
+    }
+
+    /* Perguntas frequentes */
+    .container-title-perguntas-frequentes h2 {
+        font-size: 34px;
+    }
+
 }
