@@ -67,7 +67,7 @@ body::-webkit-scrollbar-track {
 }
 
 .row.row-logo {
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 
 .btn-proposta {
@@ -150,7 +150,7 @@ body::-webkit-scrollbar-track {
 
 .container-subtitle-header {
     max-width: 980px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .container-btn-saber-mais{
