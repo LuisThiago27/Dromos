@@ -112,7 +112,7 @@
 
 }
 
-/* Tablet */
+/* Celular */
 @media (max-width: 425px) {
     /* Header */
     .row-logo .col-4 {
@@ -133,6 +133,8 @@
 
     .container-img-rocket img {
         width: 160px;
+        position: absolute;
+        left: -15% !important;
     }
 
     .container-btn-proposta {
@@ -160,6 +162,10 @@
     .container-subtitle-header h5  {
         font-size: 16px;
         padding: 0;
+    }
+
+    .container-subtitle-header {
+        padding-bottom: 50px;
     }
 
     /* Cards */
