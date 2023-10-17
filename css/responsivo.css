@@ -34,6 +34,10 @@
         font-size: 30px;
     }
 
+    .no-cell {
+        height: 380px !important;
+    }
+
     /* Vantagens */
     section.vantagens {
         padding-left: 30px;
@@ -113,7 +117,7 @@
 }
 
 /* Celular */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     /* Header */
     .row-logo .col-4 {
         padding: 0;
@@ -236,6 +240,11 @@
 
     .bolinha3{
         top: 56%;
+    }
+
+    .card-destacado p {
+        font-size: 10px;
+        margin-bottom: 70px;
     }
 
     /* Vantagens */
@@ -368,6 +377,18 @@
     /* Depoimentos */
     .container-text-depoimentos h2 {
         font-size: 26px;
+    }
+
+    .carousel-indicators {
+        bottom: -10px;
+    }
+
+    .carousel-control-prev {
+        left: -10px;
+    }
+
+    .carousel-control-next {
+        right: -10px;
     }
 
     /* Perguntas frequentes */

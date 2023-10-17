@@ -12,7 +12,7 @@
 }
 
 :root {
-    --color-background: #fffdf7;
+    --color-background: #0a333d;
     --color-black: #212121;
     --color-black-heavy: #000;
     --color-text: #4f4f4f;
@@ -23,11 +23,13 @@
     --color-red: #e74c3c;
     --color-green: #2ecc71;
     --color-separate: #cccccc;
+    --color-subtitle: #FFFFFFA6;
 }
 
 body, html {
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .hidden {
@@ -75,7 +77,6 @@ body::-webkit-scrollbar-track {
     font-size: 16px;
     font-weight: 600;
     color: var(--color-white);
-    background-color: #EB3F5B00;
     border-style: solid;
     border-width: 2px;
     border-color: var(--color-white);
@@ -141,7 +142,7 @@ body::-webkit-scrollbar-track {
 }
 
 .container-subtitle-header h5 {
-    color: #FFFFFFA6;
+    color: var(--color-subtitle);
     font-family: 'Merriweather', serif;
     font-size: 21px;
     font-weight: 400;
@@ -157,7 +158,6 @@ body::-webkit-scrollbar-track {
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #EB3F5B00;
     border: 2px solid var(--color-white);
     padding: 2px 6px;
     width: 20px;
@@ -198,7 +198,7 @@ section.cards {
     padding: 70px 0;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(black 60%, #0a333d);
+    background-image: linear-gradient(var(--color-black-heavy) 60%, var(--color-background));
 }
 
 .container-cards {
@@ -276,7 +276,7 @@ section.empresa {
     padding: 70px 0;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(#0a333d , black);
+    background-image: linear-gradient(var(--color-background) , var(--color-black-heavy));
 }
 
 .container-text-empresa h4 {
@@ -330,10 +330,27 @@ section.empresa {
     background-color: #219ebc;
 }
 
+.card-destacado {
+    display: flex;
+    justify-content: end;
+}
+
+.card-destacado p {
+    max-width: 500px;
+    font-size: 12px;
+    background-color: #fffdf7;
+    color: var(--color-black);
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 20px rgba(33, 158, 188, 0.5);
+}
+
 
 /* Vantagens */
 section.vantagens {
-    background-image: linear-gradient(black, #0a333d, black);
+    background-image: linear-gradient(var(--color-black-heavy), var(--color-background), var(--color-black-heavy));
     padding: 70px 0;
 }
 
@@ -410,10 +427,13 @@ section.vantagens {
     background-color: var(--color-secondary);
     border-radius: 10px 10px 10px 10px;
     padding: 20px 30px 20px 30px;
+    border: 3px solid var(--color-secondary);
 }
 
 .container-btn-vantagens a:hover {
-    background-color: var(--color-black-heavy);
+    background-color: transparent;
+    color: var(--color-secondary);
+    border: 3px solid var(--color-secondary);
     transition: all .3s;
 }
 
@@ -591,7 +611,7 @@ section.depoimentos {
 /* Perguntas frequentes */
 section.perguntas-frequentes {
     padding: 70px 0;
-    background-image: linear-gradient(black, #0a333d);
+    background-image: linear-gradient(var(--color-black-heavy), var(--color-background));
 }
 
 .container-w680 {
